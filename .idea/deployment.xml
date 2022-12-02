@@ -5,8 +5,12 @@
       <paths name="dell">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/bcc/Works/spring/ublox_ws/src" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/home/bcc/Works/spring/gnssrover" local="$PROJECT_DIR$" web="/" />
           </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/rtkbase" />
+            <excludedPath local="true" path="$PROJECT_DIR$/images" />
+          </excludedPaths>
         </serverdata>
       </paths>
     </serverData>

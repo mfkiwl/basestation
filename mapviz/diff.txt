@@ -1,0 +1,25 @@
+diff --git a/mapviz/launch/mapviz.launch b/mapviz/launch/mapviz.launch
+index 9abcf33..710a2e7 100644
+--- a/mapviz/launch/mapviz.launch
++++ b/mapviz/launch/mapviz.launch
+@@ -1,10 +1,10 @@
+ <launch>
+ 
+-  <node pkg="mapviz" type="mapviz" name="mapviz"></node>
++  <node pkg="mapviz" type="mapviz" name="mapviz" required="true"/>
+ 
+   <node pkg="swri_transform_util" type="initialize_origin.py" name="initialize_origin" >
+     <param name="local_xy_frame" value="/map"/>
+-    <param name="local_xy_origin" value="swri"/>
++    <param name="local_xy_origin" value="auto"/>
+     <rosparam param="local_xy_origins">
+       [{ name: swri,
+          latitude: 29.45196669,
+@@ -18,6 +18,7 @@
+          altitude: 200.0,
+          heading: 0.0}]
+     </rosparam>
++    <remap from="fix" to="/ublox/fix"/>
+   </node>
+ 
+   <node pkg="tf" type="static_transform_publisher" name="swri_transform" args="0 0 0 0 0 0 /map /origin 100"  />

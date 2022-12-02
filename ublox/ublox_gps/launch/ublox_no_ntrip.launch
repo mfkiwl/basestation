@@ -22,9 +22,6 @@
               file="$(arg param_file_dir)/$(arg param_file_name).yaml" />
   </node>
 
-  <include file="$(find ntrip_ros)/launch/ntrip_ros.launch" />
-  <!-- <include file="$(find rviz_satellite)/launch/demo.launch" /> -->
-
   <node pkg="mapviz" type="mapviz" name="mapviz" required="true"/>
 
   <node pkg="swri_transform_util" type="initialize_origin.py" name="initialize_origin" >
