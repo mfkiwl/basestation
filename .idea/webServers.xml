@@ -9,6 +9,27 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="0df5d299-66cc-4163-a91b-5dc76c56e9aa" name="rpi4 (project level)">
+        <fileTransfer accessType="SFTP" host="192.168.1.47" port="22" sshConfigId="767266f6-4c97-4124-aa79-70a2d0e6c4f9" sshConfig="bcc@192.168.1.47:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="f6b40d65-58f2-4283-bf00-b630938a6b6e" name="rpi4_test">
+        <fileTransfer accessType="SFTP" host="192.168.1.47" port="22" sshConfigId="767266f6-4c97-4124-aa79-70a2d0e6c4f9" sshConfig="bcc@192.168.1.47:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="099bbed2-ad81-4a25-83a1-342bc926360b" name="basestation">
+        <fileTransfer accessType="SFTP" host="223.171.144.22" port="8022" sshConfigId="41a0a38b-c160-4e65-be5e-9decc2c282ff" sshConfig="spring@223.171.144.22:8022 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

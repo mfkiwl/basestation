@@ -69,7 +69,7 @@ class ntripconnect(Thread):
                     data = response.read(2)
                     buf += data
                     typ = (ord(data[0]) * 256 + ord(data[1])) / 16
-                    print (str(datetime.now()), cnt, typ)
+                    print ('get rtcm', str(datetime.now()), cnt, typ)
                     cnt = cnt + 1
                     for x in range(cnt):
                         data = response.read(1)
@@ -79,7 +79,7 @@ class ntripconnect(Thread):
                     rmsg.header.stamp = rospy.get_rostime()
                     self.ntc.pub.publish(rmsg)
                     buf = ""
-                else: print (data)
+                else: print ('init', data)
             else:
                 ''' If zero length data, close connection and reopen it '''
                 restart_count = restart_count + 1

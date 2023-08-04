@@ -3,6 +3,14 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig authType="PASSWORD" host="192.168.1.16" id="7251511d-6c05-4f9d-96b3-91e301e5b831" port="22" nameFormat="DESCRIPTIVE" username="bcc" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="192.168.50.100" id="9926da76-89b3-4134-af24-8970e3b8c111" port="22" nameFormat="DESCRIPTIVE" username="basegnss" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="192.168.1.47" id="767266f6-4c97-4124-aa79-70a2d0e6c4f9" port="22" nameFormat="DESCRIPTIVE" username="bcc" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="192.168.1.47" id="272a81d2-dd2a-4c51-8bc5-29e9d9e696cc" port="22" nameFormat="DESCRIPTIVE" username="bcc" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="192." id="461b7c89-41fa-441a-b5f2-a32b985537e5" port="22" nameFormat="DESCRIPTIVE" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="192.168.50.100" id="c854e9af-560d-4141-8372-3252dcbfaf73" port="22" nameFormat="DESCRIPTIVE" username="spring" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="192.168.1.35" id="adbeb0e6-82dc-42b6-8843-22e5be4c8613" port="22" nameFormat="DESCRIPTIVE" username="spring" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="192.168.50.101" id="e2a3f890-3968-4de3-954c-5ea716c3a890" port="22" nameFormat="DESCRIPTIVE" username="spring" useOpenSSHConfig="true" />
+      <sshConfig authType="PASSWORD" host="223.171.144.22" id="41a0a38b-c160-4e65-be5e-9decc2c282ff" port="8022" nameFormat="DESCRIPTIVE" username="spring" useOpenSSHConfig="true" />
     </configs>
   </component>
 </project>

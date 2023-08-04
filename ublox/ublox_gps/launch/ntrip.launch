@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <include file="$(find ntrip_ros)/launch/ntrip_ros.launch" />
+  <!-- <include file="$(find rviz_satellite)/launch/demo.launch" /> -->
+  <!-- <include file="$(find ntrip_client)/launch/ntrip_client.launch" />-->
+
+</launch>

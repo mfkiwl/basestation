@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="dell" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="basestation" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="basestation">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/spring/rtkbase" local="$PROJECT_DIR$/rtkbase" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="dell">
         <serverdata>
           <mappings>
@@ -13,6 +20,14 @@
           </excludedPaths>
         </serverdata>
       </paths>
+      <paths name="rpi4_test">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/bcc/docker" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
